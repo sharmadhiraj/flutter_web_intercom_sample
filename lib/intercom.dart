@@ -1,13 +1,8 @@
-@JS()
-library javascript_bundler;
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:js/js.dart';
+import 'package:flutter_web_intercom_sample/bundler/stud_bundler.dart'
+    if (dart.library.js) 'package:flutter_web_intercom_sample/bundler/javascript_bundler.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-
-@JS('showHideIntercom')
-external void showHideIntercom(bool show);
 
 class Intercom extends StatelessWidget {
   final String tag;

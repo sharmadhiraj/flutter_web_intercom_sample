@@ -9,8 +9,8 @@ class Intercom extends StatelessWidget {
   final Widget child;
 
   Intercom({
-    @required this.tag,
-    @required this.child,
+    required this.tag,
+    required this.child,
   });
 
   @override

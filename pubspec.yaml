@@ -10,7 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  js: ^0.7.1
   visibility_detector: ^0.4.0+2
 
 flutter:
